@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EmberExpl4
+  m_Shader: {fileID: 10708, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USEDEPTH_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 39d04151558a38b40ba619fab608154c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MotionVector:
+        m_Texture: {fileID: 2800000, guid: 47b7df68a3234464ba4c21aa2c9dcce1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: a3be78edc3ddbba4c9ad3ec4915f5eaf, type: 3}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CullMode: 0
+    - _Depthpower: 0.5
+    - _Emission: 2
+    - _FinalEmission: 1
+    - _InvFade: 1
+    - _MotionAmount: 0.001
+    - _Opacity: 1
+    - _Usecenterglow: 0
+    - _Usedepth: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortionSpeedXYPowerZ: {r: 0, g: 0, b: 0, a: 0}
+    - _GlowColor: {r: 1, g: 1, b: 0, a: 1}
+    - _NoisespeedXYNoisepowerZGlowpowerW: {r: 0.314, g: 0.427, b: 0.001, a: 4}
+    - _NoisespeedXYpowerZ: {r: 0.314, g: 0.427, b: 0.001, a: 0}
+    - _NoisespeedXYpowerZFire: {r: 0.314, g: 0.427, b: 0.001, a: 1}
+    - _NoisespeedXYpowerZFireEmissionW: {r: 0.314, g: 0.427, b: 0.001, a: 0}
+    - _NoisespeedXYpowerZFireVectorspeedW: {r: 0.314, g: 0.427, b: 0.001, a: 1}
+    - _NoisespeedXYpowerZFrameW: {r: 0.314, g: 0.427, b: 0.001, a: 0}
+    - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: 0}
+    - _TilingXY: {r: 8, g: 8, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+  m_BuildTextureStacks: []
