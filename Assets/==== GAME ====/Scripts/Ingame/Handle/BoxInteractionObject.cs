@@ -35,4 +35,8 @@ public class BoxInteractionObject : InteractableObject
         base.Setup(_id, objectInGame);
         objInGame.OnTapObject = PerformGrab;
     }
+
+    #region DATA
+    
+    #endregion
 }

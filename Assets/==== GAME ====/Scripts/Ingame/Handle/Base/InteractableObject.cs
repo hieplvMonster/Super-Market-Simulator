@@ -109,3 +109,18 @@ public class InteractableObject : MonoBehaviour
 //    Nothing,
 //    Throw,
 //}
+public class DataBox: ScriptableObject
+{
+    public int ID;
+    public int numItem;
+    public GameObject prefabProduct;
+
+    Stack stackOut;
+    //public void InitBox(List<Transform> listPoint,out Stack<GameObject> stackProduct)
+    //{
+    //    for(int i = 0; i < listPoint.Count; i++)
+    //    {
+    //        GameObject obj = 
+    //            }
+    //}
+}
